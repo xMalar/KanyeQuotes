@@ -1,0 +1,10 @@
+
+W jakim celu używa się klas abstrakcyjnych, a w jakim interfejsów?
+
+Przyznam, że to nadal sprawia mi sporo trudości... Ale z tego co rozumiem, to interfejsów używa się zwykle po to, żeby móc tworzyć metody i udostępniać je niepowiązanym ze sobą obiektom. Z kolei klasę obstrakcyjną, z której można tylko dziedziczyć, tworzymy, gdy chcemy mieś szablon jakiejś pojedyńczej funkcjonalności. 
+
+
+Czym różni się tablica od listy liniowej?
+
+Tablice mają z góry określony rozmiar i typ danych, więc przydają się bardziej w przypadku, gdy mamy znaną i stałą liczbę elementów. Z kolei listy mogą zmieniać rozmiar w zależności od potrzeb. Dostęp do elementów tablicy mamy za pomocą indeksów, w listach elementy są ze sobą powiązane referencjami. To sprawia, że dodawanie i usuwanie elementów jest łatwiejsze na listach, ale szybszy dostęp do elementów mamy w tablicach. Kolejną róznicą jest np. przehowywanie elementów - uporządkowane w tablicach i losowe w listach połączonych.
+
