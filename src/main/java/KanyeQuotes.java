@@ -12,7 +12,19 @@ public class KanyeQuotes
         String host = "https://api.kanye.rest";
 
         String choice;
-//testowy koment
+//        do{
+//            HttpResponse<JsonNode> response = Unirest.get(host)
+//                    .asJson();
+//            System.out.println(response.getBody());
+//            System.out.println("Type \"next\" to get next quote or \"exit\" to...exit.");
+//            Scanner scan = new Scanner(System.in);
+//            choice = scan.nextLine();
+//        }
+//        while(choice.equals("next"));
+//        System.out.println("See you next time!");
+
+
+        String choice;
         do{
             HttpResponse<JsonNode> response = Unirest.get(host)
                     .asJson();
@@ -22,6 +34,6 @@ public class KanyeQuotes
             choice = scan.nextLine();
         }
         while(choice.equals("next"));
-        System.out.println("See you next time!");
+        System.out.println("Do zoba nastepnym razem!");
     }
 }
