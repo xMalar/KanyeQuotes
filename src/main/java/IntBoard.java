@@ -9,8 +9,8 @@ public class IntBoard {
         int[] board = new int[50];
         int number = 51;
 
-        for (int i = 0; i < 50; i++)
-            board[i] = number -= 1;
+     //   for (int i = 0; i < 50; i++)
+     //       board[i] = number -= 1;
 
         System.out.println("Write a number and I'll check if it exist in a board");
         Scanner scan = new Scanner(System.in);

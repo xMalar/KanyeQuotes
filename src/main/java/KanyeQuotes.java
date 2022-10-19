@@ -12,7 +12,7 @@ public class KanyeQuotes
         String host = "https://api.kanye.rest";
 
         String choice;
-
+//testowy koment
         do{
             HttpResponse<JsonNode> response = Unirest.get(host)
                     .asJson();
