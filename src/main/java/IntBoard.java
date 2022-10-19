@@ -9,10 +9,10 @@ public class IntBoard {
         int[] board = new int[50];
         int number = 51;
 
-        for (int i = 0; i < 50; i++)
+      for (int i = 0; i < 50; i++)
             board[i] = number -= 1;
 
-        System.out.println("Write a number and I'll check if it exist in a board");
+        System.out.println("Wpisz tu cos");
         Scanner scan = new Scanner(System.in);
         int x = scan.nextInt();
         System.out.println(search(board, x));
@@ -29,3 +29,5 @@ public class IntBoard {
 
     }
 }
+
+//kontrolny koment
